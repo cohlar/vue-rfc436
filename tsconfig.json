@@ -12,5 +12,10 @@
     {
       "path": "./tsconfig.config.json"
     }
-  ]
+  ],
+
+  "vueCompilerOptions": {
+    "jsxTemplates": true,
+    "experimentalRfc436": true
+  }
 }
