@@ -1,12 +1,9 @@
-interface First {
-  something: string;
+import type { DbResource, Resource } from "@/models";
+
+export interface ResourceByMode {
+  view: DbResource;
+  create: Resource;
+  update: DbResource;
 }
 
-interface Second {
-  somethingElse: number;
-}
-
-export interface Resources {
-  first: First[];
-  second: Second[];
-}
+export type ResourceFormMode = keyof ResourceByMode;

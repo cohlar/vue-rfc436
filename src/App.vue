@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import HelloWorld from "./components/HelloWorld.vue";
-import TheWelcome from "./components/TheWelcome.vue";
+import ResourceForm from "./components/ResourceForm.vue";
 </script>
 
 <template>
@@ -19,7 +19,9 @@ import TheWelcome from "./components/TheWelcome.vue";
   </header>
 
   <main>
-    <TheWelcome resourceName="first" />
+    <ResourceForm mode="view" resourceId="someUuid" />
+    <ResourceForm mode="create" />
+    <ResourceForm mode="update" resourceId="someUuid" />
   </main>
 </template>
 
