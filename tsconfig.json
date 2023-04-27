@@ -10,12 +10,7 @@
 
   "references": [
     {
-      "path": "./tsconfig.config.json"
+      "path": "./tsconfig.node.json"
     }
-  ],
-
-  "vueCompilerOptions": {
-    "jsxTemplates": true,
-    "experimentalRfc436": true
-  }
+  ]
 }

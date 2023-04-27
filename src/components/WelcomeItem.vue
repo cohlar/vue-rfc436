@@ -1,5 +1,12 @@
+<script setup lang="ts">
+defineProps<{
+  foo?: string;
+}>();
+</script>
+
 <template>
   <div class="item">
+    {{ foo }}
     <i>
       <slot name="icon"></slot>
     </i>
