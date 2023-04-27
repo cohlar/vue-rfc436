@@ -8,7 +8,7 @@ import SupportIcon from './icons/IconSupport.vue'
 </script>
 
 <template>
-  <WelcomeItem v-bind="$attrs">
+  <WelcomeItem v-bind="$attrs" foo="bar">
     <template #icon>
       <DocumentationIcon />
     </template>
@@ -19,7 +19,7 @@ import SupportIcon from './icons/IconSupport.vue'
     provides you with all information you need to get started.
   </WelcomeItem>
 
-  <WelcomeItem>
+  <WelcomeItem foo="bar">
     <template #icon>
       <ToolingIcon />
     </template>
@@ -39,7 +39,7 @@ import SupportIcon from './icons/IconSupport.vue'
     More instructions are available in <code>README.md</code>.
   </WelcomeItem>
 
-  <WelcomeItem>
+  <WelcomeItem foo="bar">
     <template #icon>
       <EcosystemIcon />
     </template>
@@ -55,7 +55,7 @@ import SupportIcon from './icons/IconSupport.vue'
     a visit.
   </WelcomeItem>
 
-  <WelcomeItem>
+  <WelcomeItem foo="bar">
     <template #icon>
       <CommunityIcon />
     </template>
@@ -73,7 +73,7 @@ import SupportIcon from './icons/IconSupport.vue'
     twitter account for latest news in the Vue world.
   </WelcomeItem>
 
-  <WelcomeItem>
+  <WelcomeItem foo="bar">
     <template #icon>
       <SupportIcon />
     </template>

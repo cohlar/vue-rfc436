@@ -13,7 +13,7 @@ import TheWelcome from "./components/TheWelcome.vue";
   </header>
 
   <main>
-    <TheWelcome foo="bar" />
+    <TheWelcome foo="baz" />
   </main>
 </template>
 
